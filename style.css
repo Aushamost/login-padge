@@ -1,0 +1,120 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(Ausha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+img{
+    border-radius: 50%; /*  opera, IE9, */
+width: 35%;
+
+}
+form{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    background: rgb(0,0,0,.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+img[alt="user"] {
+
+    position: absolute;
+    top: -50px;
+    left: 118px;
+}
+
+h2{
+
+    color:#fff ;
+    text-align: center;
+    margin-top: 90px;
+
+}
+input[type="email"],[type="password"]{
+
+position: absolute;
+outline: none;
+border: none;
+width: 250px;
+height: 35px;
+border-bottom: 2px solid #0094ff;
+background: none;
+padding: 5px;
+color: #fff;
+
+}
+
+input[type="email"]{
+
+    top: 140px;
+    left: 50px
+}
+
+input[type="password"]{
+
+    top: 210px;
+    left: 50px
+}
+
+a{
+
+    text-decoration: none;
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+  
+    
+}
+a:hover{
+
+
+background:  #fff;
+color: #0077ff;
+
+
+
+}
+
+p{
+
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+p:hover{
+
+
+color: #72c9ff;
+
+}
+
+
+
+
